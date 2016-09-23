@@ -1,0 +1,12 @@
+language: cpp
+compiler: gcc
+sudo: require
+
+install: 
+  - sudo apt-get install -qq valgrind
+
+script: 
+  - qmake
+  - make
+  - valgrind --leak-check=full -v --show-reachable=yes --log-file=memcheck.log ./travis_qmake_gcc_cpp98_memcheck
+  - cat memcheck.log
