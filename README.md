@@ -15,8 +15,10 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Source: one single file, `main.cpp`
 
 More complex builds:
+
  * Use of C++11: [travis_qmake_gcc_cpp11_memcheck](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_memcheck)
  * Use of C++14: [travis_qmake_gcc_cpp14_memcheck](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_memcheck)
 
 Less complex builds:
+
  * No memcheck: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)

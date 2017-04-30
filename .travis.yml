@@ -1,6 +1,6 @@
 language: cpp
 compiler: gcc
-sudo: require
+sudo: required
 
 install: 
   - sudo apt-get install -qq valgrind
